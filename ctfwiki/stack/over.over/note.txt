@@ -1,0 +1,9 @@
+无backdoor
+循环>加输入 80->96栈溢出到rip
+main	.text	00000000004006C0	00000063	00000018		R	.	.	.	.	.	B	T	.
+0x4006be leave;ret
+sub_0x400676 无限循环函数
+0x400793 pop_rdi
+
+auto lo
+iface lo inet loopback
